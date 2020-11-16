@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./样式.css">
+</head>
+
+<body onload="draw()">
+  <div id="box">
+    <div class="color">
+      <div class="red"></div>
+      <div class="blue"></div>
+      <div class="green"></div>
+      <div class="yellow"></div>
+      <span class="linechoice">
+        <span>自定义画笔大小</span>
+        <input class="colorweight" type="text" placeholder="请输入数字">
+        <button class="weightbutton">确定</button>
+      </span>
+      <span class="choice">
+        <span>自选颜色</span>
+        <input class="colorvalue" type="text" placeholder="请输入HEX格式">
+        <button class="colorbutton">确定</button>
+      </span>
+
+    </div>
+    <canvas id="canvas" width="950" height="800">
+      你的浏览器不支持canvas，请更新~
+    </canvas>
+    <div class="clean">
+      <button class="cleanbutton">清空画板</button>
+      <div class="clean">橡皮擦</div>
+    </div>
+  </div>
+
+  <script src="./js文件.js">
+
+  </script>
+</body>
+
+</html>

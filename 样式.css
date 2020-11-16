@@ -1,0 +1,81 @@
+body {
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    canvas {
+      box-shadow: 0 0 10px #333;
+      margin: 0 20px;
+    }
+
+    #box {
+      display: flex;
+      position: relative;
+    }
+
+    .color {
+      height: 800px;
+      width: 200px;
+      box-shadow: 0 0 10px #333;
+      display: flex;
+      justify-content: space-around;
+      align-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .color>div {
+      width: 80px;
+      height: 80px;
+      margin: 5px;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .clean {
+      height: 800px;
+      width: 200px;
+      box-shadow: 0 0 10px #333;
+    }
+
+    .clean>div {
+      height: 50px;
+      width: 50px;
+      background: cornsilk;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #box .choice {
+      height: 50px;
+      width: 200px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+    #box .linechoice {
+      height: 50px;
+      width: 200px;
+      position: absolute;
+      left: 0;
+      bottom: 50px;
+    }
+
+    input {
+      width: 130px;
+    }
